@@ -4,8 +4,8 @@ import 'react-vertical-timeline-component/style.min.css'
 import SchoolIcon from '@material-ui/icons/School'
 import WorkIcon from '@material-ui/icons/Work'
 import StarIcon from '@material-ui/icons/Star'
-import WorkTimelineData from '../data/workexp'
-import educationTimelineData from '../data/educationexp'
+import WorkTimelineData from '../helpers/workexp'
+import educationTimelineData from '../helpers/educationexp'
 import '../styles/Experience.css'
 
 const Experience = () => {
