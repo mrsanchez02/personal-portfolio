@@ -5,6 +5,7 @@ import Experience from './pages/Experience'
 import NavBar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer'
+import NotFound from './pages/NotFound'
 
 function App () {
   return (
@@ -15,6 +16,7 @@ function App () {
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/experience' element={<Experience />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
