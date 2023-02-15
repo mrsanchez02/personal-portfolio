@@ -2,63 +2,51 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import SchoolIcon from '@material-ui/icons/School'
+import WorkIcon from '@material-ui/icons/Work'
+import StarIcon from '@material-ui/icons/Star'
+import WorkTimelineData from '../data/workexp'
+import educationTimelineData from '../data/educationexp'
+import '../styles/Experience.css'
 
 const Experience = () => {
-  const experienceTimelineData = [
-    {
-      title: 'Software Development in Java',
-      location: 'SDQ Learning Center',
-      timeline: 'Jun 2019 - Aug 2019'
-    },
-    {
-      title: 'GIT Fundamentals',
-      location: 'EDTeam',
-      timeline: 'Aug 2019 - Dec 2019'
-    },
-    {
-      title: 'React from Scratch',
-      location: 'EDTeam',
-      timeline: 'Dec 2019 - Feb 2020'
-    },
-    {
-      title: 'Intro to Testing',
-      location: 'EDTeam',
-      timeline: 'Dec 2019 - Jan 2020'
-    },
-    {
-      title: 'Bootcamp C# Web Development',
-      location: 'Talendig, The Digital Talent Factory',
-      timeline: 'Aug 2022 - Dec 2022'
-    },
-    {
-      title: 'Intro to JavaScript Testing',
-      location: 'EDTeam',
-      timeline: 'Dec 2022 - Jan 2023'
-    },
-    {
-      title: 'Jira Fundamentals',
-      location: 'EDTeam',
-      timeline: 'Jan 2023 - Jan 2023'
-    }
-  ]
-
   return (
     <div className='experience'>
+      <h2 className='experience__title'>Education & Work Experience</h2>
+      <h3 className='experience__subtitle'>My previous jobs and qualifications</h3>
       <VerticalTimeline lineColor='#3e497a'>
-        {/* <VerticalTimelineElement className='vertical-timeline-element--education' date='2021'></VerticalTimelineElement> */}
-        {experienceTimelineData.map((exp, index) => (
+        {educationTimelineData.map((exp, index) => (
           <VerticalTimelineElement
             key={index}
             className='vertical-timeline-element--education'
-            date={exp.timeline}
+            date={`${exp.startDate} - ${exp.endDate}`}
             iconStyle={{ background: '#3e497a', color: '#fff' }}
             icon={<SchoolIcon />}
           >
-            <h3 className='vertical-timeline-element-title'>{exp.location}</h3>
-            <h4 className='vertical-timeline-element-subtitle'></h4>
+            <h3 className='vertical-timeline-element-title'>{exp.degreeTitle}</h3>
+            <h4 className='vertical-timeline-element-subtitle'>{exp.educationalInstitute}</h4>
             <p>{exp.title}</p>
           </VerticalTimelineElement>
         ))}
+        {WorkTimelineData.map((exp, index) => (
+          <VerticalTimelineElement
+            key={index}
+            className='vertical-timeline-element--education'
+            date={`${exp.hireDate} - ${exp.endDate}`}
+            iconStyle={{ background: '#e9d35b', color: '#fff' }}
+            icon={<WorkIcon />}
+          >
+            <h3 className='vertical-timeline-element-title'>{exp.jobTitle}</h3>
+            <h4 className='vertical-timeline-element-subtitle'>{exp.companyName}</h4>
+            <p>{exp.jobDescription}</p>
+            <ul>
+              {exp.jobResponsabilities.map((item, index) => <li key={index}>{item}</li>)}
+            </ul>
+          </VerticalTimelineElement>
+        ))}
+        <VerticalTimelineElement
+          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+          icon={<StarIcon />}
+        />
       </VerticalTimeline>
     </div>
   )
