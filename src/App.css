@@ -4,5 +4,10 @@ body,html {
 }
 
 .App {
-  text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
 }
