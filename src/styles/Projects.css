@@ -10,14 +10,14 @@
   text-align: center;
   color: #3e497a;
   font-size: 60px;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .projectList {
-  width: 70vw;
+  width: 85vw;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   place-items: center;
 }
 
