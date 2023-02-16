@@ -11,9 +11,9 @@ const Home = () => {
         <h2>Hi, My name is Leandro Sanchez</h2>
         <div className='prompt'>
           <p>A software developer full of curiosity and passion for learning.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
+          <a href='https://linkedin.com/in/jsanchez-castillo/' target='_blank' rel='noreferrer'><LinkedInIcon /></a>
+          <a href='mailto:leandrosanchez.it@gmail.com' target='_blank' rel='noreferrer'><EmailIcon /></a>
+          <a href='https://github.com/mrsanchez02' target='_blank' rel='noreferrer'><GitHubIcon /></a>
         </div>
       </div>
       <div className='skills'>
