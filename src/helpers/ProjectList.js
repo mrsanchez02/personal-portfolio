@@ -1,11 +1,11 @@
-import barcodegenerator from '../assets/barcodegenerator.png'
-import portfolio from '../assets/portfolio.png'
-import pokedeskvanilla from '../assets/pokedeskvanilla.png'
-import projectManager from '../assets/projectManager.png'
-import cryptomarketinfo from '../assets/cryptomarketinfo.png'
-import quotegenerator from '../assets/quotegenerator.png'
-import cryptocurrencyexchangerate from '../assets/cryptocurrencyexchangerate.png'
-import imagesearchreactapp from '../assets/imagesearchreactapp.png'
+import barcodegenerator from '../assets/barcodegenerator.jpg'
+import portfolio from '../assets/portfolio.jpg'
+import pokedeskvanilla from '../assets/pokedeskvanilla.jpg'
+import projectManager from '../assets/projectManager.jpg'
+import cryptomarketinfo from '../assets/cryptomarketinfo.jpg'
+import quotegenerator from '../assets/quotegenerator.jpg'
+import cryptocurrencyexchangerate from '../assets/cryptocurrencyexchangerate.jpg'
+import imagesearchreactapp from '../assets/imagesearchreactapp.jpg'
 
 export const ProjectList = [
   {
