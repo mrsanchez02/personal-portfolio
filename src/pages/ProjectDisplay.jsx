@@ -11,23 +11,27 @@ const ProjectDisplay = () => {
 
   return (
     <div className='project'>
-      <h1>{name}</h1>
-      <img src={image} alt={name} />
-      <div className='project__body'>
-        <h2>Description:</h2>
-        <p>{description}</p>
-        <h2>Tools:</h2>
-        <span>{skills.join(' | ')}</span>
-      </div>
-      <div className='project__footer'>
-        {githubLink.map((gitLink, index) => (
-          <a href={githubLink} key={index} target='_blank' rel='noreferrer'>
-            <GithubIcon />
+      <div className='project__card'>
+        <div className='project__card-header'>
+          <img src={image} alt={name} />
+          <h2>{name}</h2>
+        </div>
+        <div className='project__card-body'>
+          <h3>Description:</h3>
+          <p>{description}</p>
+          <h3>Tools:</h3>
+          <span>{skills.join(' | ')}</span>
+        </div>
+        <div className='project__card-footer'>
+          {githubLink.map((githubLink, index) => (
+            <a href={githubLink} key={index} target='_blank' rel='noreferrer'>
+              <GithubIcon />
+            </a>
+          ))}
+          <a href={deploymentLink} target='_blank' rel='noreferrer'>
+            <RocketLaunchIcon />
           </a>
-        ))}
-        <a href={deploymentLink} target='_blank' rel='noreferrer'>
-          <RocketLaunchIcon />
-        </a>
+        </div>
       </div>
     </div>
   )

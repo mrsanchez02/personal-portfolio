@@ -6,8 +6,8 @@ import NavBar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer'
 import NotFound from './pages/NotFound'
-// import ProjectDisplay from './pages/ProjectDisplay'
-import UnderConstruction from './pages/UnderConstruction'
+import ProjectDisplay from './pages/ProjectDisplay'
+// import UnderConstruction from './pages/UnderConstruction'
 
 function App () {
   return (
@@ -17,7 +17,7 @@ function App () {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/project/:id' element={<UnderConstruction />} />
+          <Route path='/project/:id' element={<ProjectDisplay />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
