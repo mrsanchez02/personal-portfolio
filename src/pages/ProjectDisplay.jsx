@@ -1,8 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { ProjectList } from '../helpers/ProjectList'
-import GithubIcon from '@material-ui/icons/GitHub'
-import RocketLaunchIcon from '@material-ui/icons/Launch'
+import GithubIcon from '@mui/icons-material/GitHub'
+import RocketLaunchIcon from '@mui/icons-material/Launch'
 import '../styles/ProjectDisplay.css'
 
 const ProjectDisplay = () => {
