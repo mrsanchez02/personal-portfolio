@@ -14,19 +14,6 @@ const Experience = () => {
       <h2 className='experience__title'>Education & Work Experience</h2>
       <h3 className='experience__subtitle'>My previous jobs and qualifications</h3>
       <VerticalTimeline lineColor='#3e497a'>
-        {educationTimelineData.map((exp, index) => (
-          <VerticalTimelineElement
-            key={index}
-            className='vertical-timeline-element--education'
-            date={`${exp.startDate} - ${exp.endDate}`}
-            iconStyle={{ background: '#3e497a', color: '#fff' }}
-            icon={<SchoolIcon />}
-          >
-            <h3 className='vertical-timeline-element-title'>{exp.degreeTitle}</h3>
-            <h4 className='vertical-timeline-element-subtitle'>{exp.educationalInstitute}</h4>
-            <p>{exp.title}</p>
-          </VerticalTimelineElement>
-        ))}
         {WorkTimelineData.map((exp, index) => (
           <VerticalTimelineElement
             key={index}
@@ -41,6 +28,19 @@ const Experience = () => {
             <ul>
               {exp.jobResponsabilities.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
+          </VerticalTimelineElement>
+        ))}
+        {educationTimelineData.map((exp, index) => (
+          <VerticalTimelineElement
+            key={index}
+            className='vertical-timeline-element--education'
+            date={`${exp.startDate} - ${exp.endDate}`}
+            iconStyle={{ background: '#3e497a', color: '#fff' }}
+            icon={<SchoolIcon />}
+          >
+            <h3 className='vertical-timeline-element-title'>{exp.degreeTitle}</h3>
+            <h4 className='vertical-timeline-element-subtitle'>{exp.educationalInstitute}</h4>
+            <p>{exp.title}</p>
           </VerticalTimelineElement>
         ))}
         <VerticalTimelineElement
