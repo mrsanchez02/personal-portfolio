@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, My name is Leandro Sanchez</h2>
+        <h2>Hi, I'm Leandro Sanchez</h2>
         <div className='prompt'>
           <p>A software developer full of curiosity and passion for learning.</p>
           <a href='https://linkedin.com/in/jsanchez-castillo/' target='_blank' rel='noreferrer'><LinkedInIcon /></a>
@@ -21,7 +21,7 @@ const Home = () => {
         <ol className='list'>
           <li className='item'>
             <h2>FrontEnd</h2>
-            <span>HTML, CSS, ReactJs, Bootstrap, TailwindCSS, StyledComponents, MaterialUI</span>
+            <span>HTML, CSS, ReactJs, Bootstrap, TailwindCSS, StyledComponents, MaterialUI, NextJS</span>
           </li>
         </ol>
         <ol className='list'>
