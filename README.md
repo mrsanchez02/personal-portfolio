@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+# Work summary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As a FullStack Web Developer, I have extensive experience in typescript, Next.js, Node.js, Bitbucket, microservices, and web applications. My work primarily revolves around providing support, making improvements, and implementing new features for a variety of applications and dashboards.
 
-## Available Scripts
+I have worked on both web and mobile software applications catering to businesses of all sizes, ranging from large enterprises to medium and small businesses. These applications often involve complex order processing and require seamless integration with backend systems.
 
-In the project directory, you can run:
+In my role, I excel at addressing and resolving customer issues related to the software. I am adept at understanding customer requirements and making necessary code changes to ensure smooth functioning of their projects, particularly in relation to different integrations and appliances.
 
-### `yarn start`
+Throughout my career, I have demonstrated a strong ability to collaborate with cross-functional teams and adapt to dynamic environments. I am passionate about delivering high-quality solutions that meet the unique needs of each project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My expertise in typescript, Next.js, Node.js, Bitbucket, microservices, and web applications enables me to effectively contribute to the development and maintenance of robust, scalable, and efficient software systems. I strive to stay updated with the latest technologies and industry best practices to continuously enhance my skills and deliver optimal results.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, I bring a customer-focused approach, a deep understanding of web development technologies, and a proven track record of successfully supporting and enhancing diverse applications and dashboards.
