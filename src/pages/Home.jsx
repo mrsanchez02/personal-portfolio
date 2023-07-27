@@ -49,17 +49,12 @@ const Home = () => {
         <h1>Skills</h1>
         <ol className='list'>
           <li className='item'>
-<<<<<<< HEAD
             <Typography variant='h2' mb={4}>FrontEnd</Typography>
             <Stack direction='row' spacing={1}>
               {frontEndSkills.map((frontSkill, index) => (
                 <Chip label={frontSkill.label} color='primary' key={frontSkill.key} />
               ))}
             </Stack>
-=======
-            <h2>FrontEnd</h2>
-            <span>HTML, CSS, ReactJs, Bootstrap, TailwindCSS, StyledComponents, MaterialUI, NextJS</span>
->>>>>>> 2433c7e4a3d68a9dc4aad4db5d8b35abaf795189
           </li>
         </ol>
         <ol className='list'>
