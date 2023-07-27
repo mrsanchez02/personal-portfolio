@@ -6,8 +6,17 @@ import cryptomarketinfo from '../assets/cryptomarketinfo.jpg'
 import quotegenerator from '../assets/quotegenerator.jpg'
 import cryptocurrencyexchangerate from '../assets/cryptocurrencyexchangerate.jpg'
 import imagesearchreactapp from '../assets/imagesearchreactapp.jpg'
+import MarkdownEditorApp from '../assets/MarkdownEditorApp.png'
 
 export const ProjectList = [
+  {
+    name: 'Markdown Editor',
+    image: MarkdownEditorApp,
+    description: 'A markdown editor in realtime.',
+    skills: ['Javascript', 'React', 'Styled components'],
+    githubLink: ['https://github.com/mrsanchez02/markdown-live-editor-app'],
+    deploymentLink: 'https://markdown-live-editor-app.vercel.app/'
+  },
   {
     name: 'BarCode Generator',
     image: barcodegenerator,

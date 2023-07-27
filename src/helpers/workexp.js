@@ -1,5 +1,23 @@
 module.exports = [
   {
+    jobTitle: 'Fullstack Developer',
+    companyName: 'Media Revolution SRL',
+    jobDescription: 'I specialize in providing support, driving improvements, and implementing new features for a wide range of applications and dashboards. With a focus on web and mobile software applications, my experience spans across businesses of varying sizes, including large enterprises, medium-sized companies, and small businesses. These projects frequently involve complex order processing and back-end data integration requirements. My expertise lies in understanding and addressing the challenges associated with such applications. Through my work, I strive to enhance functionality, optimize performance, and meet the unique needs of each project.',
+    hireDate: 'Apr 2023',
+    endDate: 'present',
+    jobResponsabilities: [
+      'Offer support, improvements, and implementation of new features for diverse applications and dashboards.',
+      'Work on web and mobile software applications designed for large, medium, and small businesses.',
+      'Address and solve customer issues related to the software.',
+      "Make code changes to customers' projects to ensure compatibility with different integrations and appliances.",
+      'Collaborate with cross-functional teams to deliver high-quality solutions.',
+      'Adapt to dynamic environments and contribute to the development and maintenance of robust, scalable, and efficient software systems.',
+      'Stay updated with the latest technologies and industry best practices.',
+      'Understand complex order processing and backend data integration needs.',
+      'Deliver high-quality solutions that meet unique project requirements.'
+    ]
+  },
+  {
     jobTitle: 'Freelance',
     companyName: 'Freenlancer',
     jobDescription: 'Currently, I’m a freelancer, providing technical consulting to Startups and others freelancers. Helping to maintain and acquire technical equipment (Computers, Laptops, Servers and others Data Center needs) and Security Systems (Security Cameras, alarms, etc.). As a designer and website builder, I’m involved in the digital presence for my customer business.',

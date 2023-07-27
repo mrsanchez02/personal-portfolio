@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, My name is Leandro Sanchez</h2>
+        <h2>Hi, I'm Leandro Sanchez</h2>
         <div className='prompt'>
           <p>A software developer full of curiosity and passion for learning.</p>
           <a href='https://linkedin.com/in/jsanchez-castillo/' target='_blank' rel='noreferrer'><LinkedInIcon /></a>
@@ -49,12 +49,17 @@ const Home = () => {
         <h1>Skills</h1>
         <ol className='list'>
           <li className='item'>
+<<<<<<< HEAD
             <Typography variant='h2' mb={4}>FrontEnd</Typography>
             <Stack direction='row' spacing={1}>
               {frontEndSkills.map((frontSkill, index) => (
                 <Chip label={frontSkill.label} color='primary' key={frontSkill.key} />
               ))}
             </Stack>
+=======
+            <h2>FrontEnd</h2>
+            <span>HTML, CSS, ReactJs, Bootstrap, TailwindCSS, StyledComponents, MaterialUI, NextJS</span>
+>>>>>>> 2433c7e4a3d68a9dc4aad4db5d8b35abaf795189
           </li>
         </ol>
         <ol className='list'>
