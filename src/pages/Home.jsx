@@ -1,10 +1,39 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import EmailIcon from '@mui/icons-material/Email'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import Chip from '@mui/material/Chip'
+import Stack from '@mui/material/Stack'
 import '../styles/Home.css'
+import { Typography } from '@mui/material'
 
 const Home = () => {
+  const [frontEndSkills] = useState([
+    { key: 0, label: 'HTML' },
+    { key: 1, label: 'CSS' },
+    { key: 2, label: 'ReactJs' },
+    { key: 3, label: 'NextJs' },
+    { key: 4, label: 'TailwindCss' },
+    { key: 5, label: 'Bootstrap' },
+    { key: 6, label: 'MaterialUI' }
+  ])
+
+  const [backEndSkills] = useState([
+    { key: 0, label: 'NodeJs' },
+    { key: 1, label: 'ExpressJS' },
+    { key: 2, label: 'TypeORM' },
+    { key: 3, label: 'Mongoose' },
+    { key: 4, label: 'MongoDB' },
+    { key: 5, label: 'PostgreSQL' },
+    { key: 6, label: 'MS SQL' }
+  ])
+
+  const [programmingLanguages] = useState([
+    { key: 0, label: 'Javascript' },
+    { key: 1, label: 'Typescript' },
+    { key: 2, label: 'C#' }
+  ])
+
   return (
     <div className='home'>
       <div className='about'>
@@ -20,20 +49,32 @@ const Home = () => {
         <h1>Skills</h1>
         <ol className='list'>
           <li className='item'>
-            <h2>FrontEnd</h2>
-            <span>HTML, CSS, ReactJs, Bootstrap, TailwindCSS, StyledComponents, MaterialUI</span>
+            <Typography variant='h2' mb={4}>FrontEnd</Typography>
+            <Stack direction='row' spacing={1}>
+              {frontEndSkills.map((frontSkill, index) => (
+                <Chip label={frontSkill.label} color='primary' key={frontSkill.key} />
+              ))}
+            </Stack>
           </li>
         </ol>
         <ol className='list'>
           <li className='item'>
-            <h2>BackEnd</h2>
-            <span>NodeJS, ExpressJS, MongoDB, .NET, MS SQL</span>
+            <Typography variant='h2' mb={4}>BackEnd</Typography>
+            <Stack direction='row' spacing={1}>
+              {backEndSkills.map((backSkill, index) => (
+                <Chip label={backSkill.label} color='primary' key={backSkill.key} />
+              ))}
+            </Stack>
           </li>
         </ol>
         <ol className='list'>
           <li className='item'>
-            <h2>Languages</h2>
-            <span>Javascript, C#, Typescript</span>
+            <Typography variant='h2' mb={4}>Languages</Typography>
+            <Stack direction='row' spacing={1}>
+              {programmingLanguages.map((language, index) => (
+                <Chip label={language.label} color='primary' key={language.key} />
+              ))}
+            </Stack>
           </li>
         </ol>
       </div>
