@@ -50,7 +50,10 @@ const Home = () => {
         <ol className='list'>
           <li className='item'>
             <Typography variant='h2' mb={4}>FrontEnd</Typography>
-            <Stack direction='row' spacing={1}>
+            <Stack
+              direction={{ xs: 'column', md: 'row' }} 
+              spacing={1}
+            >
               {frontEndSkills.map((frontSkill, index) => (
                 <Chip label={frontSkill.label} color='primary' key={frontSkill.key} />
               ))}
@@ -60,7 +63,10 @@ const Home = () => {
         <ol className='list'>
           <li className='item'>
             <Typography variant='h2' mb={4}>BackEnd</Typography>
-            <Stack direction='row' spacing={1}>
+            <Stack
+              direction={{ xs: 'column', md: 'row' }} 
+              spacing={1}
+            >
               {backEndSkills.map((backSkill, index) => (
                 <Chip label={backSkill.label} color='primary' key={backSkill.key} />
               ))}
@@ -70,8 +76,12 @@ const Home = () => {
         <ol className='list'>
           <li className='item'>
             <Typography variant='h2' mb={4}>Languages</Typography>
-            <Stack direction='row' spacing={1}>
+            <Stack 
+              direction={{ xs: 'column', md: 'row' }} 
+              spacing={1}
+            >
               {programmingLanguages.map((language, index) => (
+                // <Typography key={language.key}>{language.label} </Typography>
                 <Chip label={language.label} color='primary' key={language.key} />
               ))}
             </Stack>
