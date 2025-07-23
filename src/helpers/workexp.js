@@ -1,10 +1,25 @@
 module.exports = [
   {
+    jobTitle: 'Software Developer',
+    companyName: 'Valego Consulting',
+    jobDescription: 'At Valego Consulting, I’ve been an integral part of the development team, working on scalable web and mobile applications for clients across various industries. My role involves full-stack software development, leveraging modern tools and frameworks from the JavaScript and TypeScript ecosystem, while applying clean code practices and agile methodologies.',
+    hireDate: 'Sep 2023',
+    endDate: 'present',
+    jobResponsabilities: [
+      'Participated in the analysis of technical and functional requirements in collaboration with product teams and clients.',
+      'Developed responsive, accessible, and high-performance user interfaces using React, Next.js, Tailwind CSS, and Material UI.',
+      'Followed Agile practices (Scrum/Kanban) to ensure continuous delivery, using Asana.',
+      'Focused on high-quality, maintainable code with the help of unit testing, type safety via TypeScript, and automated pipelines (CI/CD).',
+      'Refactored legacy code to improve performance and modularity in critical parts of the system.',
+      'Collaborated with QA engineers, UI/UX designers, and stakeholders to deliver tailored, business-aligned software solutions.'
+    ]
+  },
+  {
     jobTitle: 'Fullstack Developer',
     companyName: 'Media Revolution SRL',
     jobDescription: 'I specialize in providing support, driving improvements, and implementing new features for a wide range of applications and dashboards. With a focus on web and mobile software applications, my experience spans across businesses of varying sizes, including large enterprises, medium-sized companies, and small businesses. These projects frequently involve complex order processing and back-end data integration requirements. My expertise lies in understanding and addressing the challenges associated with such applications. Through my work, I strive to enhance functionality, optimize performance, and meet the unique needs of each project.',
     hireDate: 'Apr 2023',
-    endDate: 'present',
+    endDate: 'Aug 2023',
     jobResponsabilities: [
       'Offer support, improvements, and implementation of new features for diverse applications and dashboards.',
       'Work on web and mobile software applications designed for large, medium, and small businesses.',
