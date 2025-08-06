@@ -1,6 +1,13 @@
 module.exports = [
   {
     type: 'education',
+    degreeTitle: 'Foundations of Project Management',
+    educationalInstitute: 'Coursera',
+    startDate: 'Aug 2023',
+    endDate: '-'
+  },
+  {
+    type: 'education',
     degreeTitle: 'Jira Fundamentals',
     educationalInstitute: 'EDTeam',
     startDate: 'Jan 2023',

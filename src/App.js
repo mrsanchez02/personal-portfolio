@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from './components/Footer'
 import NotFound from './pages/NotFound'
 import ProjectDisplay from './pages/ProjectDisplay'
+import AboutMe from './pages/AboutMe'
 // import UnderConstruction from './pages/UnderConstruction'
 
 function App () {
@@ -19,6 +20,7 @@ function App () {
           <Route path='/projects' element={<Projects />} />
           <Route path='/project/:id' element={<ProjectDisplay />} />
           <Route path='/experience' element={<Experience />} />
+          <Route path='/about' element={<AboutMe />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
