@@ -80,6 +80,14 @@
     font-size: 20px;
     width: 80%;
   }
+  .about__description {
+    width: 80%;
+    font-size: 18px;
+  }
+  .about__content {
+    width: 100%;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -97,4 +105,23 @@
   .skills h2 {
     font-size: 30px;
   }
+
+  .skills .list {
+    width: 100%;
+    font-size: 18px;
+  }
+  .about__description {
+    width: 90%;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .about .prompt {
+    width: 90%;
+    font-size: 18px;
+  }
+  .about__content {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
 }
