@@ -60,6 +60,9 @@ const Home = () => {
             <Stack
               direction={{ xs: 'column', md: 'row' }}
               spacing={1}
+              flexWrap='wrap'
+              justifyContent='center'
+              gap={1}
             >
               {frontEndSkills.map((frontSkill, index) => (
                 <Chip label={frontSkill.label} color='primary' key={frontSkill.key} />
@@ -73,6 +76,9 @@ const Home = () => {
             <Stack
               direction={{ xs: 'column', md: 'row' }}
               spacing={1}
+              flexWrap='wrap'
+              justifyContent='center'
+              gap={1}
             >
               {backEndSkills.map((backSkill, index) => (
                 <Chip label={backSkill.label} color='primary' key={backSkill.key} />
@@ -86,6 +92,9 @@ const Home = () => {
             <Stack
               direction={{ xs: 'column', md: 'row' }}
               spacing={1}
+              flexWrap='wrap'
+              justifyContent='center'
+              gap={1}
             >
               {programmingLanguages.map((language, index) => (
                 // <Typography key={language.key}>{language.label} </Typography>
