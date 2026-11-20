@@ -3,6 +3,7 @@
 ## Commands
 
 - Use `pnpm` for dependency and script commands; the repository uses `pnpm-lock.yaml` and `pnpm-workspace.yaml`.
+- Keep the root `packages: ['.']` entry in `pnpm-workspace.yaml`; Vercel's pnpm install rejects the workspace when the packages field is absent.
 - Start the development server with `pnpm dev` (equivalent to the CRA `pnpm start` command).
 - Run the available style check with `pnpm exec standard src`.
 - There are currently no test files. Use `pnpm test -- --watchAll=false --passWithNoTests` when a passing no-tests check is needed; omit `--passWithNoTests` when checking whether tests exist.
