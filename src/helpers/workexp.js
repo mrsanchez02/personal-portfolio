@@ -4,7 +4,7 @@ module.exports = [
     companyName: 'Valego Consulting',
     jobDescription: 'At Valego Consulting, I’ve been an integral part of the development team, working on scalable web and mobile applications for clients across various industries. My role involves full-stack software development, leveraging modern tools and frameworks from the JavaScript and TypeScript ecosystem, while applying clean code practices and agile methodologies.',
     hireDate: 'Sep 2023',
-    endDate: 'present',
+    endDate: 'Jan 2026',
     jobResponsabilities: [
       'Participated in the analysis of technical and functional requirements in collaboration with product teams and clients.',
       'Developed responsive, accessible, and high-performance user interfaces using React, Next.js, Tailwind CSS, and Material UI.',
